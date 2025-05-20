@@ -1,3 +1,4 @@
+<a id="top"></a>
 # Setting Up Your Development Environment
 
 Setting up your development environment is an important first step to beginning development work.
@@ -13,7 +14,8 @@ First thing we need to do is download and install Microsoft VS Code. VS Code is 
 
 <hr />
 
-<h4 id="homebrew">Homebrew</h4>
+<a id="homebrew"></a>
+<h4>Homebrew</h4>
 Assuming you're developing on Mac, you will want to download and install homebrew on your computer. Homebrew is a fairly standard package manager used for OSX and will help you install other software packages such as the Java Development Kit we will need.<br />
 
 [Install Homebrew](https://brew.sh/)
@@ -22,7 +24,8 @@ You can check to see if your homebrew installation was completed successfully by
 
 <hr />
 
-<h4 id="node-js">Node.js</h4>
+<a id="node-js"></a>
+<h4>Node.js</h4>
 Node.js is a requirement for developing basically any JavaScript application. When you install Node.js, you will be able to use npm, or Node Package Manager. This is how we install JavaScript packages in projects and generate JavaScript projects themselves. You can read more about Node.js <a href="https://nodejs.org/en" target="_blank">here</a>.
 
 [Install Node.js](https://nodejs.org/en)
@@ -33,8 +36,8 @@ You can check to see if your Node.js installation was successful by running: <xm
 
 <hr />
 
+<a id="jdk"></a>
 ## Java Development Kit
-<span id="jdk" />
 One of the requirements to run NetSuite's CLI (Command Line Interface) is JDK 17, or JDK 21. (we're currently using JDK 21 as of right now).<br />
 Using Homebrew, install JDK 21:
 
@@ -54,8 +57,8 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 <hr />
 
+<a id="netsuite-cli"></a>
 ## NetSuite CLI & API
-<span id="netsuite-cli" />
 NetSuite was kind enough to provide us with a handy CLI that makes interacting with the file cabinet and SuiteScripts a much more streamlined experience, especially for development.
 
 Install SuiteCloud CLI:
