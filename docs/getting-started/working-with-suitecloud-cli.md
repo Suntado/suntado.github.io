@@ -132,7 +132,7 @@ suitecloud project:create --type ACCOUNTCUSTOMIZATION --projectname test_project
 
 Now, we navigate to the project folder and run <strong>suitecloud account:setup</strong> to link the project to our NetSuite Account.
 
-> NOTE: when performing the OAuth2 link, you will be prompted to Create a new authentication ID. If you don't have a previously configured auth ID, go through with this step. If you do have previously configured ID's, you are given the option to select one in this propt. Usually we will only have 2 auth id's available for use. One leading to the sandbox, and one leading to production.
+> NOTE: when performing the OAuth2 link, you will be prompted to Create a new authentication ID. If you don't have a previously configured auth ID, go through with this step. If you do have previously configured ID's, you are given the option to select one in this prompt. Usually we will only have 2 auth id's available for use. One leading to the sandbox, and one leading to production.
 
 If you're already in an existing project, and you need to push files to production after following proper CLI usage, you can switch auth accounts from sandbox to production, and then perform your file:upload command.
 
@@ -155,6 +155,8 @@ The account has been successfully set up.
 </xmp>
 
 After properly authenticating, you should be able to access NetSuite through the CLI!
+
+> NOTE: If you have the CLI installed, we actually have a shortcut for creating your local project. You can also git clone the official [Suntado SDF repository](https://github.com/Suntado/Suntado_SDF) for use in development.
 
 <hr />
 
