@@ -15,5 +15,6 @@
         - [- What is SuiteCloud CLI](/getting-started/working-with-suitecloud-cli.md#what-is-cli)
         - [- The suitecloud command](/getting-started/working-with-suitecloud-cli.md#suitecloud-command)
         - [- SuiteCloud CLI Help](/getting-started/working-with-suitecloud-cli.md#help)
+        - [- Setting up a project](/getting-started/working-with-suitecloud-cli.md#project)
         - [- Interactive Option](/getting-started/working-with-suitecloud-cli.md#interactive)
         - [- Proper CLI Usage](/getting-started/working-with-suitecloud-cli.md#proper-usage)
